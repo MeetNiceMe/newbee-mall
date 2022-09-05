@@ -81,7 +81,7 @@ public class AdminController {
             return "admin/login";
         }
     }
-
+    //进入更改用户名界面
     @GetMapping("/profile")
     public String profile(HttpServletRequest request) {
         Integer loginUserId = (int) request.getSession().getAttribute("loginUserId");

@@ -4,9 +4,36 @@
 <head th:replace="mall/header::head-fragment('NewBee商城-首页','index')">
 </head>
 <body>
+<div style="width: 100%;
+    height: 120px;
+    background-color: orangered;
+    float: left;">
+    <div style="width: 25%;
+    height: 120px;
+    text-align: right;
+    float: left;">
+        <img src="./mall/image/xiaomi_weixin.png"/>
+    </div>
+    <div style="width: 72%;
+    height: 120px;
+    text-align: left;
+    margin-left: 3%;
+    float: left;
+">
+        <span style="
+        font-size: 3.5em;
+        font-weight: 600;
+        margin-top: 15px;
+        color: white;
+        width: 77%;
+        height: 120px;
+        display: inline-block;">扫码领取    新人100元大礼包</span>
+    </div>
+</div>
 <header th:replace="mall/header::header-fragment"></header>
 <content id="content">
-    <nav th:replace="mall/header::nav-fragment"></nav>
+    <nav th:replace="mall/header::nav-fragment">
+    </nav>
     <div id="banner">
         <div class="all-sort-list">
             <th:block th:each="category : ${categories}">

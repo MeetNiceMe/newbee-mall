@@ -23,6 +23,10 @@ import javax.servlet.http.HttpServletResponse;
  * @email 2449207463@qq.com
  * @link https://github.com/newbee-ltd
  */
+
+/**
+ * spring security配置验证码类
+ */
 @Controller
 public class CommonController {
 
