@@ -207,3 +207,7 @@ newbee-mall 项目是一套电商系统，包括 newbee-mall 商城系统及 new
 - [VincentGarreau](https://github.com/VincentGarreau/particles.js)
 - [Vue](https://github.com/vuejs/vue)
 - [Vant](https://github.com/youzan/vant)
+
+## 特别注意
+- 导入项目时需要使用MySQL5.7版本
+- 需要将load文件解压至指定目录
